@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" userLabel="Publish View" customClass="XMGPublishView">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Urt-Da-lPP">
+                    <rect key="frame" x="155.5" y="530" width="289" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="289" id="MQQ-5d-e7g"/>
+                        <constraint firstAttribute="height" constant="40" id="X9V-RH-igX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                    <state key="normal" backgroundImage="shareButtonCancel">
+                        <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelButtonClick" destination="iN0-l3-epB" eventType="touchUpInside" id="oHT-20-Cry"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.37647058823529411" green="0.36470588235294116" blue="0.36078431372549019" alpha="0.87125211148648651" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Urt-Da-lPP" secondAttribute="bottom" constant="30" id="isH-2D-CpU"/>
+                <constraint firstItem="Urt-Da-lPP" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="wAq-fk-Hgo"/>
+            </constraints>
+        </view>
+    </objects>
+    <resources>
+        <image name="shareButtonCancel" width="289" height="40"/>
+    </resources>
+</document>
