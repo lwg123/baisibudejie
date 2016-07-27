@@ -147,8 +147,6 @@
         _cellHeight += XMGTopicCellBottomBarH + XMGTopicCellMargin;
     }
     
-   
-    
     return _cellHeight;
 }
 @end
