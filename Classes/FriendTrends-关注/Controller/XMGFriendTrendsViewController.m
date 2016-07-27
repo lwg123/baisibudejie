@@ -31,6 +31,8 @@
      self.navigationItem.leftBarButtonItem = [UIBarButtonItem itemWithImage:@"friendsRecommentIcon" highImage:@"friendsRecommentIcon-click" target:self action:@selector(friendsClick)];
     // 设置背景色
     self.view.backgroundColor = XMGGlobalBg;
+    
+    NSLog(@"上传成功了");
 }
 
 - (void)friendsClick
