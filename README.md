@@ -10,3 +10,5 @@
 * 帖子的评论显示
 * 图片的放大显示
 * 网页加载显示
+
+![image](https://github.com/lwg123/baisibudejie/blob/master/baisi.gif)
